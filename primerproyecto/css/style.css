@@ -1,0 +1,128 @@
+/* SELECTOR UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: Helvetica;
+}
+/* BODY */
+body {
+    background: linear-gradient(160deg, #5000ca, white);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* NAVEGACION */
+header {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+nav {
+    overflow: hidden;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 650px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.li-pc-1, .li-pc-2, .li-pc-3, .li-pc-4 {
+    color: white;
+    font-size: 18px;
+}
+/* MAIN */
+main {
+    display: flex;
+    margin-top: 5em;
+}
+.contenedor-cuadrado-1 {
+    width: 1000px;
+    height: 370px;
+    background-color: rgb(46, 46, 46);
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 0 60px 5px rgb(71, 71, 71);
+}
+main h1 {
+    color: white;
+    font-size: 37px;
+}
+.main-div-1 {
+    width: 50%;
+    text-align: center;
+    margin: auto 0;
+}
+main img {
+    width: 400px;
+}
+.main-div-2 {
+    width: 50%;
+    text-align: center;
+    margin: auto 0;
+}
+.span-main-1 {
+    color: green;
+}
+.span-main-2 {
+    color: white;
+}
+.span-main-3 {
+    color: red;
+}
+
+
+/* SUB SECTION FOOTER */
+.section-sub-footer {
+    width: auto;
+}
+.contenedor-sub-footer {
+    text-align: center;
+}
+.section-sub-footer input {
+    width: 1670px;
+    height: 30px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    border: black 2px solid;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 415px) {
+    /* MAIN */
+    .contenedor-cuadrado-1 {
+        width: 350px;
+        height: 280px;
+        display: block;
+    }
+    .main-div-1 h1 {
+        font-size: 23px;
+    }
+    .main-div-1 {
+        margin: auto;
+    }
+    .main-div-2 img {
+        width: 250px;
+    }
+    .main-div-2 {
+        margin: 20px auto;
+    }
+
+
+    /* SUB SECTION FOOTER */
+    .contenedor-sub-footer input {
+        width: 374px;
+    }
+}
