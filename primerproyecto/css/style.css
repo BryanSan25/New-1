@@ -42,7 +42,7 @@ main {
     margin-top: 5em;
 }
 .contenedor-cuadrado-1 {
-    width: 1000px;
+    width: 1200px;
     height: 370px;
     background-color: rgb(46, 46, 46);
     margin: 0 auto;
@@ -76,7 +76,12 @@ main img {
 .span-main-3 {
     color: red;
 }
-
+/* PRIMER SECTION */
+.section-1-div-1 h2 {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 30px;
+}
 
 /* SUB SECTION FOOTER */
 .section-sub-footer {
@@ -91,7 +96,7 @@ main img {
     font-size: 18px;
     background-color: blueviolet;
     color: white;
-    border: black 2px solid;
+    border: none;
 }
 
 
@@ -99,9 +104,16 @@ main img {
 
 
 
-
 @media only screen and (max-width: 415px) {
+    /* NAVEGACION */
+    ul {
+        width: 375px;
+        justify-content: space-evenly;
+    }
     /* MAIN */
+    main {
+        margin-top: 3em;
+    }
     .contenedor-cuadrado-1 {
         width: 350px;
         height: 280px;
@@ -117,7 +129,7 @@ main img {
         width: 250px;
     }
     .main-div-2 {
-        margin: 20px auto;
+        margin-left: 50px;
     }
 
 
