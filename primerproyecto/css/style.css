@@ -12,7 +12,7 @@ body {
 }
 /* NAVEGACION */
 header {
-    margin-top: 35px;
+    margin-top: 55px;
     margin-bottom: 25px;
 }
 nav {
@@ -39,7 +39,7 @@ a:hover {
 /* MAIN */
 main {
     display: flex;
-    margin-top: 5em;
+    margin-top: 4em;
 }
 .contenedor-cuadrado-1 {
     width: 1200px;
@@ -77,11 +77,58 @@ main img {
     color: red;
 }
 /* PRIMER SECTION */
-.section-1-div-1 h2 {
-    margin-top: 2em;
+.section-1-div-1 {
     text-align: center;
-    font-size: 30px;
 }
+.section-1-div-1 i {
+    margin-top: 10px;
+    color:rgb(46, 46, 46);
+    font-size: 7em;
+}
+.section-1-div-2 h2 {
+    text-align: center;
+    font-size: 33px;
+    color: rgb(39, 39, 39);
+}
+.hijo-circulo-1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.section-circulo-1 {
+    width: 340px;
+    height: 320px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: indigo;
+    box-shadow: 0 0 10px 0px black;
+}
+.section-circulo-1 p {
+    padding-top: 5.2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.section-circulo-1-2 {
+    width: 50%;
+    text-align: center;
+}
+.section-circulo-1-2 img {
+    width: 500px;
+}
+.contenedor-circulo-1 {
+    display: flex;
+    margin: 50px auto;
+    width: 1300px;
+}
+
+
+
+
+
 
 /* SUB SECTION FOOTER */
 .section-sub-footer {
@@ -110,6 +157,9 @@ main img {
         width: 375px;
         justify-content: space-evenly;
     }
+    .li-pc-1, .li-pc-2, .li-pc-3, .li-pc-4 {
+        font-size: 15px;
+    }
     /* MAIN */
     main {
         margin-top: 3em;
@@ -123,7 +173,9 @@ main img {
         font-size: 23px;
     }
     .main-div-1 {
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
     }
     .main-div-2 img {
         width: 250px;
@@ -131,6 +183,40 @@ main img {
     .main-div-2 {
         margin-left: 50px;
     }
+    /* PRIMER SECTION */
+    .section-1-div-1 i {
+        font-size: 4em;
+    }
+    .section-circulo-1 {
+        width: 400px;
+        height: 180px;
+    }
+    .section-circulo-1 p {
+        font-size: 11px;
+        padding-top: 4em;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .contenedor-circulo-1 {
+        width: 370px;
+        display: block;
+        margin-top: 30px;
+    }
+    .hijo-circulo-1 {
+        margin: 0 auto;
+    }
+    .section-circulo-1-2 img {
+        width: 250px;
+    }
+    .section-circulo-1-2 {
+        width: 370px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+
+
 
 
     /* SUB SECTION FOOTER */
