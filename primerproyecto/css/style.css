@@ -124,12 +124,6 @@ main img {
     margin: 50px auto;
     width: 1300px;
 }
-
-
-
-
-
-
 /* SUB SECTION FOOTER */
 .section-sub-footer {
     width: auto;
@@ -147,7 +141,109 @@ main img {
 }
 
 
-
+/* FORM-CONTACTO */
+.main-form-1 {
+    width: 900px;
+    height: 550px;
+    background-color: rgb(53, 53, 53);
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 60px 5px rgb(71, 71, 71);
+    color: white;
+}
+.main-form-1 h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.form-rectangulo {
+    width: 880px;
+    height: 2px;
+    background-color: floralwhite;
+    border-radius: 90px;
+    margin: 8px auto;
+}
+.contenedor-form {
+    display: flex;
+}
+label {
+    display: block;
+    font-size: 20px;
+}
+.hijo-form {
+    display: block;
+}
+.svg-form {
+    margin: auto;
+}
+.input-1 {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.input-1 input {
+    width: 290px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+.input-2 {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.input-2 input {
+    width: 290px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+.input-3 {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.input-3 input {
+    width: 290px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+.input-4 {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.input-form-2 {
+    display: flex;
+    margin-top: 10px;
+}
+.input-form-2 label {
+    font-size: 18px;
+}
+.input-form-2 input {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+::placeholder {
+    font-size: 16px;
+}
+.input-5 input {
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0 0 30px 5px black;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: indigo;
+    color: white;
+}
 
 
 
@@ -213,14 +309,71 @@ main img {
         text-align: center;
         margin-top: 20px;
     }
-
-
-
-
-
-
     /* SUB SECTION FOOTER */
     .contenedor-sub-footer input {
         width: 374px;
+    }
+
+    /* FORM */
+    .main-form-1 {
+        width: 300px;
+        height: 550px;
+    }
+    .main-form-1 h3 {
+        font-size: 23px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .form-rectangulo {
+        width: 270px;
+    }
+    .input-1, .input-2, .input-3, .input-4 {
+        margin: 10px;
+    }
+    .input-1 {
+        margin-top: 20px;
+    }
+    .input-1 input {
+        width: 260px;
+        font-size: 14px;
+    }
+    .input-2 input {
+        width: 260px;
+        font-size: 14px;
+    }
+    .input-3 input {
+        width: 260px;
+        font-size: 14px;
+    }
+    .input-4 {
+        margin-top: 20px;
+    }
+    .input-4 label {
+        font-size: 19px;
+    }
+    .input-form-2 label {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .input-form-2 input {
+        margin-top: 13px;
+    }
+    .input-5 input {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .svg-form {
+        display: none;
+    }
+
+
+
+
+    label {
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    ::placeholder {
+        font-size: 14px;
     }
 }
