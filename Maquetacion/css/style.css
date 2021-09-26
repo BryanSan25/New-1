@@ -197,3 +197,22 @@ section div h1 {
     font-size: 40px;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+    .div-display-section-1 {
+        width: 90%;
+    }
+}
