@@ -211,8 +211,13 @@ section div h1 {
 
 
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1700px) {
     .div-display-section-1 {
-        width: 100%;
+        width: 90%;
+    }
+    .section-1-productos-1, .section-1-productos-2,
+    .section-1-productos-3, .section-1-productos-4 {
+        width: 230px;
+        height: 350px;
     }
 }
